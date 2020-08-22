@@ -613,6 +613,11 @@ config WIGIG_SENSING_SPI
 	  The output of the driver is CIRs (Channel Impulse Response) which
 	  must be processed in user space in order to get meaningful results.
 
+config PERF_HELPER
+	default y
+	help
+	  this module support record perf lock history and other perf messages.
+
 config QTI_XR_SMRTVWR_MISC
 	tristate "QTI XR Reference device Misc driver support"
 	help
