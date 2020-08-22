@@ -79,3 +79,5 @@ obj-y	+= perf_helper.o
 
 obj-y                           +=drv8846.o
 obj-y                           +=akm09970.o
+
+obj-$(CONFIG_GPIO_TESTING_MODE)	+= gpio-testing-mode.o
